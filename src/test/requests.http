@@ -1,0 +1,31 @@
+GET http://localhost:8080/user?user=user1&password=qwerty1
+
+###
+GET http://localhost:8080/user?user=user2&password=qwerty2
+
+###
+GET http://localhost:8080/authority?user=user1&authorities=READ
+
+###
+GET http://localhost:8080/authority?user=user2&authorities=READ
+
+###
+GET http://localhost:8080/authority?user=user2&authorities=WRITE
+
+###
+GET http://localhost:8080/user/all
+
+###
+GET http://localhost:8080/authorize?user=user2&password=qwerty2
+
+###
+GET http://localhost:8080/authorize?user=user1&password=qwerty2
+
+###
+GET http://localhost:8080/authorize?user=user4&password=qwerty4
+
+###
+GET http://localhost:8080/authorize?user=user1&password=
+
+###
+GET http://localhost:8080/authorize?user=user1&password=qwerty1
