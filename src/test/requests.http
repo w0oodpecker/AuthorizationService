@@ -1,7 +1,7 @@
-GET http://localhost:8080/user?user=user1&password=qwerty1
+GET http://localhost:8081/user?user=user1&password=qwerty1
 
 ###
-GET http://localhost:8080/user?user=user2&password=qwerty2
+GET http://localhost:8081/user?user=user2&password=qwerty2
 
 ###
 GET http://localhost:8080/authority?user=user1&authorities=READ
